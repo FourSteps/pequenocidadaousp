@@ -925,10 +925,13 @@ ul.short_ls li {
   opacity: 1;
 }
 
+
+
+
 .popup {
   background: #fff;
   border-radius: 4px;
-  max-width: 430px;
+  max-width: 650px;
   position: relative;
   margin: 3em auto;
   padding: 3em 2em;
@@ -1272,6 +1275,7 @@ footer p a:hover {
   }
   .blog-grid-behind {
     width: 55%;
+    margin-bottom: 30px !important;
   }
   .blog-grid-behind:nth-child(2),
   .blog-grid-behind:nth-child(3) {

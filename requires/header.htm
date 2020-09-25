@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <title>Projeto Pequeno Cidadão</title>
+      <!--meta tags -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="" />
+      <script>
+         addEventListener("load", function () {
+         	setTimeout(hideURLbar, 0);
+         }, false);
+         
+         function hideURLbar() {
+         	window.scrollTo(0, 1);
+         }
+      </script>
+      <!--//meta tags ends here-->
+      <!--booststrap-->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <!--//booststrap end-->
+      <!-- font-awesome icons -->
+      <link href="css/font-awesome.min.css" rel="stylesheet">
+      <!-- //font-awesome icons -->
+      <!--stylesheets-->
+      <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+      <!--//stylesheets-->
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
+   </head>
+  <body>
+    <!--headder-->
+    <div class="header-outs inner_page-banner" id="home" style="background: url(images/b3-2.jpg) repeat-x center !important; background-size: cover; background-color: #000;">
+      <div class="headder-top">
+        <!-- nav -->
+        <nav >
+          <div id="logo">
+             <h1><a class="logotipo" href="index.php" >O Pequeno Cidadão</a></h1>
+          </div>
+          <label for="drop" class="toggle">MENU</label>
+          <input type="checkbox" id="drop">
+          <ul class="menu mt-2">
+             <li class="active"><a href="index.php">Home</a></li>
+             <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle toogle-2">Sobre nós <span class="fa fa-angle-down" aria-hidden="true"></span>
+                </label>
+                <a href="#">Sobre nós <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                <input type="checkbox" id="drop-2">
+                <ul>
+                   <li><a href="oprojeto.php" class="drop-text">O projeto</a></li>
+                   <li><a href="galeria.php" class="drop-text">Galeria</a></li>
+                   <!-- <li><a href="biblioteca.php" class="drop-text">Biblioteca</a></li> -->
+                   <li><a href="relatorio.php" class="drop-text">Relatórios</a></li>
+                </ul>
+             </li>
+             <li class="mx-lg-3 mx-md-2 my-md-0 my-1"><a href="programacao.php">Programação</a></li>
+             <li class="mx-lg-3 mx-md-2 my-md-0 my-1"><a href="eventos.php">Eventos</a></li>
+             <li><a href="contato.php">Contato</a></li>
+          </ul>
+       </nav>
+        <!-- //nav -->
+      </div>
+    </div>
+    <!--//headder-->
